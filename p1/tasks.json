@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "C/C++: g++ build all files",
+            "type": "shell",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g",
+                "p1/main.cpp",
+                "p1/rectangle.cpp",
+                "p1/header.cpp",
+                "p1/header2.cpp",
+                "-o",
+                "p1/main"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Compile all source files into a single executable."
+        }
+    ]
+}

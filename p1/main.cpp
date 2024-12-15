@@ -1,20 +1,24 @@
+//A2
 #include <iostream>
-#include "rectangle.h"
-#include <cassert>
+#include "rectangle.h" // Include rectangle header for Assignment 2
 
 int main() {
     float width = 5.0f, height = 3.0f;
 
+    // Test the area and perimeter functions
     area(width, height);
     perimeter(width, height);
 
-    /* Example Output:
-       Area: 15
-       Perimeter: 16
-    */
+
     return 0;
 }
 
+    /* 
+        A2
+
+        Area: 15
+        Perimeter: 16
+    */
 
 
 
@@ -23,7 +27,7 @@ int main() {
 
 
 /*
-
+A1
 #include <iostream>
 #include "header.h"
 #include "header2.h"
@@ -37,11 +41,10 @@ int main() {
     return 0;
 }
 */
-    /* 
-        A1
-        Example Output:
-        show() called
-        show2() called
+/* 
+    A1
 
-        A2
-    */
+    show() called
+    show2() called
+
+*/
